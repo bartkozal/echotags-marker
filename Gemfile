@@ -8,8 +8,11 @@ gem 'coffee-rails', '~> 4.1.0'
 
 gem 'jquery-rails'
 gem 'turbolinks'
+gem 'quiet_assets'
 
 gem 'puma'
+
+gem 'rails-assets-hocus-pocus', source: 'https://rails-assets.org'
 
 group :development, :test do
   gem 'byebug'

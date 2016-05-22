@@ -1,0 +1,11 @@
+//= require_self
+
+@import 'hocus-pocus/scss/colors';
+
+$color-brand: #37435a;
+$navbar-background: $color-brand;
+$navbar-color: #ffec74;
+$navbar-link-background: transparent;
+$font-family-base: "Roboto", sans-serif;
+
+@import 'hocus-pocus/hocus-pocus';

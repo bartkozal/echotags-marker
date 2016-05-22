@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Echotags Marker</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="container">
+    <ul class="navbar-menu">
+      <li class="padding-right  ">
+        <%= link_to_unless_current "Points", root_path, class: "no-padding-sides" %>
+      </li>
+      <li class="padding-right">
+        <%= link_to_unless_current "Categories", categories_path, class: "no-padding-sides" %>
+      </li>
+    </ul>
+  </div>
+</div>
+<%= yield %>
+
+</body>
+</html>
