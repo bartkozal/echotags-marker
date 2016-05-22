@@ -1,0 +1,10 @@
+<%= form_for @category, html: { class: "form-stacked" } do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
+  <div>
+    <%= f.button "Confirm", class: "btn btn-positive" %>
+  </div>
+<% end %>
+
+<%= link_to "< Back", categories_path %>

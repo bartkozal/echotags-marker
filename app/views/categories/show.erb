@@ -5,26 +5,25 @@
   </colgroup>
   <thead>
     <tr>
-      <th>Categories</th>
+      <th><%= @category %></th>
       <th></th>
     </tr>
   </thead>
   <tbody>
-    <%- @categories.each do |category| %>
+    <%- @category.points.each do |point| %>
       <tr>
-        <td><%= link_to category, category %> (<%= category.points.count %>)</td>
+        <td><%= link_to point, edit_point_path(point) %></td>
         <td class="text-right">
           <ul class="list-divided padding-quarter-top">
             <li>
-              <%= link_to "Change title", edit_category_path(category) %>
-            </li>
-            <li>
               <%= link_to "Remove",
-                    category_path(category),
+                    point_path(point),
                     method: :delete,
                     class: "text-red",
                     data: {
-                      confirm: "This will remove: #{category}. Are you sure?"
+                      confirm: "This will remove: #{point}. If it's assigned \
+                      only to this category it will be removed from the DB. \
+                      Are you sure?".squish
                     }
               %>
             </li>
@@ -36,7 +35,7 @@
   <tfoot>
     <tr>
       <td class="padding-top">
-        <%= link_to "Add a new category", new_category_path, class: "text-green" %>
+        <%= link_to "< Back", categories_path %>
       </td>
     </tr>
   <tfoot>

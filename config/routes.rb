@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :points
+  resources :points, except: [:show, :new]
   resources :categories
 
   root 'points#index'
