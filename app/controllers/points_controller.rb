@@ -1,17 +1,19 @@
 class PointsController < ApplicationController
   def index
-    points
     @point = Point.new
+    points
+    categories
   end
 
   def edit
     point
+    categories
   end
 
   def create
-    points
     @point = Point.new(point_params)
-    if point.save
+    points
+    if @point.save
       redirect_to root_path
     else
       render :index
@@ -41,6 +43,10 @@ class PointsController < ApplicationController
 
   def point_params
     params.require(:point).permit(:title, :latitude, :longitude, :recording_path, :description, category_ids: [])
+  end
+
+  def categories
+    @categories = Category.all
   end
 
   def point

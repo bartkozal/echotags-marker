@@ -1,0 +1,1493 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+	<Document>
+		<name>Echotags Amsterdam</name>
+		<description><![CDATA[List of echotags in Amsterdam]]></description>
+		<Folder>
+			<name>Hidden gems</name>
+			<Placemark>
+				<name>Picasso sculpture in the Vondelpark</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8680140000000165,52.357452,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Trippenhuis</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.899585000000002,52.37123,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>An original 18th century herbalists’ shop</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.900149000000056,52.37198900000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>NAP visitors centre</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.902176999999938,52.367848,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Homomonument</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.884912799999938,52.37442009999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Torensluis</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.889348899999959,52.374551,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tiny Houses between Victoria Hotel</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8979060000000345,52.377274,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hollandsche Manege</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.872266599999989,52.361013,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>He Hua Temple</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.90009299999997,52.37372449999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Zevenlandenhuizen</name>
+				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.877542500000004,52.361639,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IJ Music building and Zouthhaven bridge</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.9131015,52.3774658,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Historical Architecture</name>
+			<Placemark>
+				<name>Zevenlandenhuizen</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.877542500000004,52.361639,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pakhuis De Zwijger</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.9220775,52.3768621,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stadsarchief Amsterdam</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.892197099999976,52.364580399999994,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Westergasfabriek</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.869115999999963,52.3866734,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Eerste Openluchtschool</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.874346400000036,52.347905,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Scheepvaarthuis</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.90395250000006,52.37465599999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Houten Huis and Begijnhof</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.889726200000041,52.3691055,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Oude Church</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.898206699999946,52.37436710000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Waag</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.9003449,52.372759800000004,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>De Nieuwe Kerk</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.891709600000013,52.37395739999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>In 't Aepjen</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.9002029000000675,52.3763071,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Montelbaanstoren</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.905615600000033,52.372054,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Grachtengordel</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.889360900000042,52.3655774,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Museum Van Loon</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8933806,52.3634433,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Westerkerk</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.883969999999977,52.37453420000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Royal Palace Amsterdam</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.891368000000057,52.373186,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rembrandt House Museum</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.901235100000008,52.369369,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rijksmuseum</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8852187999999614,52.3599976,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Amsterdam Centraal</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.900271999999973,52.3791283,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Church of Saint Nicholas</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.900833000000034,52.37654,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Posthoornkerk</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.890388199999961,52.38114729999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>West-Indisch Huis</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.891896900000006,52.379846,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>De Rode Hoed</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.887027399999965,52.37742729999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Huis met de Hoofden</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.887368100000003,52.3764026,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Huis van Bartolotti</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8869214000000065,52.3741214,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sint Olofspoort</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.899606899999981,52.3762331,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sint-Olofskapel</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.900816999999962,52.37480009999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Damrak</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8970324,52.3761739,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>de Bijenkorf</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.894367999999986,52.373562,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Beurs van Berlage</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.896113000000014,52.3752495,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>National Maritime Museum</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.91486610000004,52.3716939,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hollandsche Schouwburg (Joods Cultureel Kwartier)</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.911123399999951,52.366467,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>De Burcht</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.910850399999958,52.368023099999995,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hermitage Amsterdam</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.902798500000017,52.3657313,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Magere Brug</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.902395999999953,52.3635855,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Amsterdam, Waterlooplein</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.9018595000000005,52.36730009999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Theater Tuschinski</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.894510699999955,52.3662396,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Munttoren</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.893091099999992,52.36706759999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stadsschouwburg Amsterdam</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.88196389999996,52.3642004,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hampshire Hotel - Amsterdam American</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.881302000000005,52.363889,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Paradiso</name>
+				<styleUrl>#icon-503-F4EB37-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.883789500000034,52.36215089999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Contemporary architecture</name>
+			<Placemark>
+				<name>Eye Film Institute</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.901276000000053,52.38434799999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Chanel shop</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.87988740000003,52.360164,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stedelijk Museum Amsterdam</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.879730399999971,52.35800130000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Room on the roof</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.894367999999986,52.373562,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>3D Print Canal House</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.902347500000019,52.3931695,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ARCAM</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.91263349999997,52.3714429,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stadgenoot Pavilion</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.91702029999999,52.3623515,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Silodam</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.890818999999965,52.3911472,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>iJ Tower</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.938749400000006,52.37386710000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Whale</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.941399700000034,52.37316710000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Conservatorium hotel</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.878627800000004,52.358629,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Rock</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.870132499999954,52.3376066,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Science Center NEMO</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.912338500000033,52.374211100000004,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Openbare Bibliotheek Amsterdam</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.9083630000000085,52.37568290000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ING House</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8565793,52.337214,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Borneo Sporenburg Masterplan</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.9438047,52.3708831,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Lloyd Hotel &amp; Cultural Embassy</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.93478099999993,52.37439999999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Studio Thonik by MVRDV</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.9108887,52.3536455,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>De Tropenpunt</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.923420399999941,52.36385869999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Nesciobrug</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.969434099999944,52.3564763,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Timorplein</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.935425799999962,52.3655776,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>VIACOM International Media Networks</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.894007299999998,52.40147109999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Booster Station South</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.923690900000001,52.333251,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Borneo Sporenburg</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.9429625,52.3719017,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Borneo Sporenburg</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.942694300000001,52.3727663,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Borneo Sporenburg
+</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.9490324,52.3725764,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Borneo Sporenburg
+</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.9487722,52.3734205,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>IJburg</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.9874067,52.3594838,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Enneüs Heermabrug</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.9780591999999615,52.3644268,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>The Piramides</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8669487,52.3754846,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>National Maritime Museum</name>
+				<styleUrl>#icon-503-62AF44-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.91486610000004,52.3716939,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Food and Drink</name>
+			<Placemark>
+				<name>Cafe Welling</name>
+				<styleUrl>#icon-503-0BA9CC-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.877300300000002,52.35590100000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Café De Pels</name>
+				<styleUrl>#icon-503-0BA9CC-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.885263000000009,52.36875499999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Art</name>
+			<Placemark>
+				<name>Picasso Sculpture</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.868010000000027,52.35745,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Van Gogh Museum</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.881075600000031,52.3584159,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rijksmuseum</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8852187999999614,52.3599976,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Foam</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.893322399999988,52.3640863,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jewish Historical Museum</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.903815500000064,52.3671182,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rembrandt House Museum</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.901235100000008,52.369369,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stedelijk Museum Amsterdam</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.879730399999971,52.35800130000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Amsterdam Museum</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.889972299999954,52.3699834,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hermitage Amsterdam</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.902798500000017,52.3657313,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Huis Marseille, Museum for Photography</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.884810600000037,52.3675209,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stichting Art Zuid</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.885150999999951,52.36639599999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Café de Ceuvel</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.910765500000025,52.39317699999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>W139</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.895887700000003,52.37372,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>GO Gallery</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.885565100000008,52.37782569999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Upstream Gallery</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8975253999999495,52.369078,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Radar Architecture and Art</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.880605100000025,52.3727651,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Galerie Fons Welters</name>
+				<styleUrl>#icon-503-000000-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8789527000000135,52.3735736,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Musea</name>
+			<Placemark>
+				<name>Stedelijk Museum Amsterdam</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.879730399999971,52.35800130000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Van Gogh Museum</name>
+				<styleUrl>#icon-503-A7B5D7-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.881075600000031,52.3584159,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rijksmuseum</name>
+				<styleUrl>#icon-503-A7B5D7-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8852187999999614,52.3599976,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Amsterdam Pipe Museum</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.88528569999994,52.3641198,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hermitage Amsterdam</name>
+				<styleUrl>#icon-503-A7B5D7-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.902798500000017,52.3657313,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>National Maritime Museum</name>
+				<styleUrl>#icon-503-A7B5D7-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.91486610000004,52.3716939,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Allard Pierson Museum</name>
+				<styleUrl>#icon-503-A7B5D7-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8930310000000645,52.36873199999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>ARCAM</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.91263349999997,52.3714429,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>the Amsterdam Dungeon</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.892114200000037,52.37017499999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Amsterdam Museum</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.889972299999954,52.3699834,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Anne Frank House</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.883976500000017,52.3752182,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Beurs van Berlage</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.896113000000014,52.3752495,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Cromhouthuis/Bijbels Museum</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.886282800000004,52.3685383,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Foam</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.893322399999988,52.3640863,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Heineken Experience</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8918248999999605,52.35783130000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Hollandse Manege</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.872268899999995,52.36101360000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Jewish Historical Museum</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.903815500000064,52.3671182,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Madame Tussauds</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.892673800000011,52.3726167,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Netherlands Media Art Institute</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.884285299999988,52.3715663,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Science Center NEMO</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.912338500000033,52.3742111,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Pianola Museum</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8835834000000204,52.3786072,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Rembrandt House Museum</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.901235100000008,52.369369,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Sexmuseum</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.897258500000021,52.37659230000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stadsarchief Amsterdam</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.892197099999976,52.36458039999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Tattoo Museum</name>
+				<styleUrl>#icon-503-C6A4CF-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.916349999999966,52.3646666,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Amsterdam ArenA</name>
+				<styleUrl>#icon-503-A7B5D7-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.94196409999995,52.3143713,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Food &amp; Drink</name>
+			<Placemark>
+				<name>The Pilsner Club</name>
+				<styleUrl>#icon-503-B29189-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.890836499999978,52.3695542,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Stubbe's Haring / A. Stubbe-Seubring</name>
+				<styleUrl>#icon-503-B29189-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.894282800000042,52.3791199,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vlaams Friteshuis Vleminckx</name>
+				<styleUrl>#icon-503-B29189-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8910061999999925,52.3678992,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>De Pizzabakkers Overtoom</name>
+				<styleUrl>#icon-503-B29189-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.857238499999994,52.35798490000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Foodhallen</name>
+				<styleUrl>#icon-503-B29189-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.868078100000048,52.3670625,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Bazar Amsterdam</name>
+				<styleUrl>#icon-503-B29189-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.895261600000026,52.3557969,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Espressofabriek</name>
+				<styleUrl>#icon-503-B29189-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8720405000000255,52.3861076,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Brouwerij 't IJ</name>
+				<styleUrl>#icon-503-B29189-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.926340200000027,52.36666499999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Butcher's Tears</name>
+				<styleUrl>#icon-503-B29189-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8535124,52.3472257,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vondeltuin</name>
+				<styleUrl>#icon-503-B29189-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.856520000000046,52.35494999999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Wynand Fockink Proeflokaal en Slijterij</name>
+				<styleUrl>#icon-503-B29189-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.895328999999947,52.372311,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Folder>
+			<name>Veggie Food</name>
+			<Placemark>
+				<name>DopHert</name>
+				<styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.879555799999935,52.3889646,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Restaurant De Waaghals</name>
+				<styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.888964900000019,52.3571856,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Café de Ceuvel</name>
+				<styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.910765500000025,52.39317699999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>de culinaire werkplaats</name>
+				<styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.873144000000025,52.38503599999999,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Betty's Restaurant</name>
+				<styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.905768200000011,52.3455847,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Golden Temple Vegetarisch Restaurant</name>
+				<styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.899135399999977,52.3613524,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>De Bolhoed</name>
+				<styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.8855883999999605,52.3778864,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Alchemist Garden</name>
+				<styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.86157460000004,52.3591618,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>DopHert</name>
+				<styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.879555799999935,52.3889646,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Le Sud</name>
+				<styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.877946500000007,52.39129500000001,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Vegabond</name>
+				<styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.887245699999994,52.3751678,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>Maoz Vegetarian</name>
+				<styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.893821600000024,52.3669582,0.0</coordinates>
+				</Point>
+			</Placemark>
+			<Placemark>
+				<name>De Vegetarische Traiteur Amsterdam</name>
+				<styleUrl>#icon-503-CDDC39-nodesc</styleUrl>
+				<Point>
+					<coordinates>4.877185199999985,52.3723671,0.0</coordinates>
+				</Point>
+			</Placemark>
+		</Folder>
+		<Style id='icon-503-000000-nodesc-normal'>
+			<IconStyle>
+				<color>ff000000</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-000000-nodesc-highlight'>
+			<IconStyle>
+				<color>ff000000</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-000000-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-000000-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-000000-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-0BA9CC-nodesc-normal'>
+			<IconStyle>
+				<color>ffCCA90B</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-0BA9CC-nodesc-highlight'>
+			<IconStyle>
+				<color>ffCCA90B</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-0BA9CC-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-0BA9CC-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-0BA9CC-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-62AF44-nodesc-normal'>
+			<IconStyle>
+				<color>ff44AF62</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-62AF44-nodesc-highlight'>
+			<IconStyle>
+				<color>ff44AF62</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-62AF44-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-62AF44-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-62AF44-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-A7B5D7-nodesc-normal'>
+			<IconStyle>
+				<color>ffD7B5A7</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-A7B5D7-nodesc-highlight'>
+			<IconStyle>
+				<color>ffD7B5A7</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-A7B5D7-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-A7B5D7-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-A7B5D7-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-B29189-nodesc-normal'>
+			<IconStyle>
+				<color>ff8991B2</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-B29189-nodesc-highlight'>
+			<IconStyle>
+				<color>ff8991B2</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-B29189-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-B29189-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-B29189-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-C6A4CF-nodesc-normal'>
+			<IconStyle>
+				<color>ffCFA4C6</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-C6A4CF-nodesc-highlight'>
+			<IconStyle>
+				<color>ffCFA4C6</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-C6A4CF-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-C6A4CF-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-C6A4CF-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-CDDC39-nodesc-normal'>
+			<IconStyle>
+				<color>ff39DCCD</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-CDDC39-nodesc-highlight'>
+			<IconStyle>
+				<color>ff39DCCD</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-CDDC39-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-CDDC39-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-CDDC39-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-DB4436-nodesc-normal'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-DB4436-nodesc-highlight'>
+			<IconStyle>
+				<color>ff3644DB</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-DB4436-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id='icon-503-F4EB37-nodesc-normal'>
+			<IconStyle>
+				<color>ff37EBF4</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>0.0</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<Style id='icon-503-F4EB37-nodesc-highlight'>
+			<IconStyle>
+				<color>ff37EBF4</color>
+				<scale>1.1</scale>
+				<Icon>
+					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+				</Icon>
+				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
+				</hotSpot>
+			</IconStyle>
+			<LabelStyle>
+				<scale>1.1</scale>
+			</LabelStyle>
+			<BalloonStyle>
+				<text><![CDATA[<h3>$[name]</h3>]]></text>
+			</BalloonStyle>
+		</Style>
+		<StyleMap id='icon-503-F4EB37-nodesc'>
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#icon-503-F4EB37-nodesc-normal</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#icon-503-F4EB37-nodesc-highlight</styleUrl>
+			</Pair>
+		</StyleMap>
+	</Document>
+</kml>
