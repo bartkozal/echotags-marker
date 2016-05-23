@@ -1,0 +1,38 @@
+<div id="map" class="map"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSi9XqJJg8XlhclU-Yx0Qs84_9T6-7BxA&callback=initMap" async defer></script>
+<script>
+    var map, marker;
+
+    function initMap() {
+      var position = new google.maps.LatLng(<%= @point.latitude %>, <%= @point.longitude %>);
+
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: position,
+        zoom: 15,
+        streetViewControl: false,
+        mapTypeControl: false
+      });
+
+      map.addListener('click', function(event) {
+        if (marker) { marker.setMap(null); }
+
+        marker = new google.maps.Marker({
+          map: map,
+          position: event.latLng,
+          draggable: true,
+          icon: pinSymbol("<%= hexcolor(@point.first_category_title) %>")
+        });
+
+        updatePositionOf(marker);
+        marker.addListener('drag', updatePosition);
+      });
+
+      marker = new google.maps.Marker({
+        map: map,
+        position: position,
+        draggable: true,
+        icon: pinSymbol("<%= hexcolor(@point.first_category_title) %>")
+      });
+      marker.addListener('drag', updatePosition);
+    }
+</script>

@@ -17,7 +17,7 @@
           <ul class="list-divided padding-quarter-top">
             <li>
               <%= link_to "Remove",
-                    point_path(point),
+                    point_path(point, category: @category),
                     method: :delete,
                     class: "text-red",
                     data: {

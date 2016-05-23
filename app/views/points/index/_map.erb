@@ -1,0 +1,50 @@
+<div id="map" class="map"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSi9XqJJg8XlhclU-Yx0Qs84_9T6-7BxA&callback=initMap" async defer></script>
+<script>
+    var map, infoWindow, newMarker;
+
+    function initMap() {
+      map = new google.maps.Map(document.getElementById('map'), {
+        center: {lat: 52.371413, lng: 4.897451},
+        zoom: 13,
+        streetViewControl: false,
+        mapTypeControl: false
+      });
+
+      map.addListener('click', function(event) {
+        if (newMarker) { newMarker.setMap(null); }
+
+        newMarker = new google.maps.Marker({
+          map: map,
+          draggable: true,
+          position: event.latLng,
+          icon: pinSymbol("#fff")
+        });
+
+        updatePositionOf(newMarker);
+        newMarker.addListener('drag', updatePosition);
+      });
+
+      <%- @points.each do |point| %>
+        var position = new google.maps.LatLng(<%= point.latitude %>, <%= point.longitude %>);
+
+        var marker = new google.maps.Marker({
+          map: map,
+          position: position,
+          icon: pinSymbol("<%= hexcolor(point.first_category_title) %>")
+        });
+
+        infoWindow = new google.maps.InfoWindow();
+
+        marker.addListener('click', function() {
+          infoWindow.setContent('<div><strong><%= point.title %></strong></div>' +
+            '<div class="margin-bottom"><%= point.categories.join(", ") %></div>' +
+            '<div class="margin-bottom"><%= point.description || "Missing description" %></div>' +
+            '<div class="text-muted"><%= point.latitude %>, <%= point.longitude %></div>' +
+            '<div><%= link_to("Edit point", edit_point_path(point)) %></div>'
+          );
+          infoWindow.open(map, this);
+        });
+      <% end %>
+    }
+</script>

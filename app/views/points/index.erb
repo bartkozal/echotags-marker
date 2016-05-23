@@ -1,0 +1,11 @@
+<div class="grid">
+  <div class="grid-item 3/4">
+    <%= render "points/index/map" %>
+  </div>
+  <div class="grid-item 1/4">
+    <h4 class="no-margin-top">New point</h4>
+    <%= render "form" %>
+  </div>
+</div>
+
+<small class="text-muted">Total number of points: <%= @points.count %></small>

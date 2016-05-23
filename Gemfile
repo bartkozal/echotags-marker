@@ -9,6 +9,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'quiet_assets'
+gem 'chosen-rails'
 
 gem 'puma'
 

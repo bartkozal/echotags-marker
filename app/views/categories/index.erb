@@ -36,7 +36,10 @@
   <tfoot>
     <tr>
       <td class="padding-top">
-        <%= link_to "Add a new category", new_category_path, class: "text-green" %>
+        <ul class="list-divided">
+          <li><%= link_to "< Back", root_path %></li>
+          <li><%= link_to "Add a new category", new_category_path, class: "text-green" %></li>
+        </ul>
       </td>
     </tr>
   <tfoot>

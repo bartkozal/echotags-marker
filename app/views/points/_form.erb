@@ -1,0 +1,38 @@
+<%= form_for @point, html: { class: "form-stacked" } do |f| %>
+  <%- if errors = @point.errors.presence %>
+    <div class="box box-negative margin-bottom">
+      <ul>
+        <%- errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <%= f.label :title %>
+  <%= f.text_field :title, class: "1/1" %>
+
+  <%= f.label :category_ids, "Categories" %>
+  <%= f.select :category_ids,
+        options_from_collection_for_select(Category.all, :id, :title, @point.category_ids),
+        { include_blank: false },
+        { multiple: true, class: "js-chosen" }
+  %>
+
+  <%= f.label :position, "Position" %>
+  <div class="grid margin-bottom">
+    <div class="grid-item 1/2">
+      <%= f.text_field :latitude, readonly: true, class: "1/1"  %>
+    </div>
+    <div class="grid-item 1/2">
+      <%= f.text_field :longitude, readonly: true, class: "1/1" %>
+    </div>
+  </div>
+
+  <%= f.label :description %>
+  <%= f.text_area :description, rows: 7, class: "1/1" %>
+
+  <div>
+    <%= f.button "Confirm", class: "btn btn-positive" %>
+  </div>
+<% end %>

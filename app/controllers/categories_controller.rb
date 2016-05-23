@@ -25,8 +25,7 @@ class CategoriesController < ApplicationController
   end
 
   def update
-    category.update_attributes(category_params)
-    if @category.save
+    if category.update(category_params)
       redirect_to categories_path
     else
       render :edit
@@ -34,7 +33,7 @@ class CategoriesController < ApplicationController
   end
 
   def destroy
-    category.delete
+    category.destroy
     redirect_to categories_path
   end
 
