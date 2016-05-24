@@ -29,4 +29,16 @@ $(document).on('page:change', function() {
     placeholder_text_multiple: " ",
     width: '100%'
   });
+
+  $("#point_latitude").on("paste", function(event) {
+      var clip = event.originalEvent.clipboardData.getData('text'),
+          separator = ", ";
+
+      if (clip.includes(separator)) {
+        var splits = clip.split(separator);
+        event.preventDefault();
+        event.currentTarget.value = splits[0];
+        $("#point_longitude").val(splits[1]);
+      }
+  });
 });
