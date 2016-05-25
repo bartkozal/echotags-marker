@@ -11,4 +11,8 @@ class Point < ActiveRecord::Base
   def to_s
     title
   end
+
+  def as_json(options)
+    {title: title, latitude: latitude, longitude: longitude}
+  end
 end

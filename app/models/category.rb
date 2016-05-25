@@ -7,4 +7,8 @@ class Category < ActiveRecord::Base
   def to_s
     title
   end
+
+  def as_json(options)
+    {title: title}
+  end
 end
