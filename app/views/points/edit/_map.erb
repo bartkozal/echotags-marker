@@ -3,7 +3,7 @@
 <script>
     var map, marker;
 
-    function initMap() {
+    window.initMap = function() {
       var position = new google.maps.LatLng(<%= @point.latitude %>, <%= @point.longitude %>);
 
       map = new google.maps.Map(document.getElementById('map'), {

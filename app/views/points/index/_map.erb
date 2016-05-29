@@ -3,7 +3,7 @@
 <script>
     var map, infoWindow, newMarker;
 
-    function initMap() {
+    window.initMap = function() {
       map = new google.maps.Map(document.getElementById('map'), {
         center: {lat: 52.371413, lng: 4.897451},
         zoom: 13,
