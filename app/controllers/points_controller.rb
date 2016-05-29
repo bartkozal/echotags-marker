@@ -34,14 +34,8 @@ class PointsController < ApplicationController
   end
 
   def destroy
-    if point.categories.count > 1
-      category = params[:category]
-      point.categories.delete(category)
-      redirect_to category_path(category)
-    else
-      point.destroy
-      redirect_to categories_path
-    end
+    point.destroy
+    redirect_to points_path
   end
 
   private

@@ -1,5 +1,12 @@
 <div class="grid">
   <div class="grid-item 1/2">
+    <%= link_to "Remove",
+          point_path(@point),
+          method: :delete,
+          class: "block text-red margin-bottom text-right",
+          data: { confirm: "This will remove: #{@point}. Are you sure?" }
+    %>
+
     <%= render "form" %>
   </div>
   <div class="grid-item 1/2">

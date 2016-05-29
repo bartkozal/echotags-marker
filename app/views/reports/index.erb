@@ -1,0 +1,43 @@
+<table class="table-hover">
+  <colgroup>
+    <col class="1/3"></col>
+    <col class="1/3"></col>
+    <col class="1/6"></col>
+    <col class="1/6"></col>
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Duplicated points:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%- @duplicates.each do |point| %>
+      <tr>
+        <td><%= link_to point, edit_point_path(point) %></td>
+        <td class="text-muted text-small"><%= point.categories.map(&:title).join %></td>
+        <td class="text-muted text-small"><%= point.latitude %></td>
+        <td class="text-muted text-small"><%= point.longitude %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<table class="table-hover">
+  <colgroup>
+    <col class="1/3"></col>
+    <col class="2/3"></col>
+  </colgroup>
+  <thead>
+    <tr>
+      <th>Points without description:</th>
+    </tr>
+  </thead>
+  <tbody>
+    <%- @without_description.each do |point| %>
+      <tr>
+        <td><%= link_to point, edit_point_path(point) %></td>
+        <td class="text-muted text-small"><%= point.categories.map(&:title).join %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

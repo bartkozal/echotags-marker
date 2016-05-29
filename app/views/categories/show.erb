@@ -1,8 +1,4 @@
 <table class="table-hover">
-  <colgroup>
-    <col class="3/4"></col>
-    <col class="1/4"></col>
-  </colgroup>
   <thead>
     <tr>
       <th><%= @category %></th>
@@ -10,25 +6,9 @@
     </tr>
   </thead>
   <tbody>
-    <%- @category.points.each do |point| %>
+    <%- @category.points.sort_by(&:title).each do |point| %>
       <tr>
         <td><%= link_to point, edit_point_path(point) %></td>
-        <td class="text-right">
-          <ul class="list-divided padding-quarter-top">
-            <li>
-              <%= link_to "Remove",
-                    point_path(point, category: @category),
-                    method: :delete,
-                    class: "text-red",
-                    data: {
-                      confirm: "This will remove: #{point}. If it's assigned \
-                      only to this category it will be removed from the DB. \
-                      Are you sure?".squish
-                    }
-              %>
-            </li>
-          </ul>
-        </td>
       </tr>
     <% end %>
   </tbody>
