@@ -6,7 +6,7 @@
     </tr>
   </thead>
   <tbody>
-    <%- @category.points.sort_by(&:title).each do |point| %>
+    <%- @category.points.each do |point| %>
       <tr>
         <td><%= link_to point, edit_point_path(point) %></td>
       </tr>

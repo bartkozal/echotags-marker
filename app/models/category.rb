@@ -4,6 +4,8 @@ class Category < ActiveRecord::Base
 
   validates_presence_of :title
 
+  acts_as_list top_of_list: 0
+
   def to_s
     title
   end

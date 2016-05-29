@@ -1,6 +1,6 @@
 class CategoriesController < ApplicationController
   def index
-    @categories = Category.all
+    @categories = Category.order(:position)
 
     respond_to do |f|
       f.html
@@ -40,6 +40,13 @@ class CategoriesController < ApplicationController
   def destroy
     category.destroy
     redirect_to categories_path
+  end
+
+  def sort
+    params.permit(:id, :position)
+    category = Category.find(params[:id])
+    category.insert_at(params[:position].to_i)
+    head :ok
   end
 
   private

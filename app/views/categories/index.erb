@@ -9,10 +9,13 @@
       <th></th>
     </tr>
   </thead>
-  <tbody>
+  <tbody class="js-sortable" data-sortable-url="<%= sort_categories_path %>">
     <%- @categories.each do |category| %>
-      <tr>
-        <td><%= link_to category, category %> (<%= category.points.count %>)</td>
+      <tr data-id="<%= category.id %>">
+        <td>
+          <small class="text-muted js-sortable-handle">⇅</small>
+          <%= link_to category, category %> (<%= category.points.count %>)
+        </td>
         <td class="text-right">
           <ul class="list-divided padding-quarter-top">
             <li>

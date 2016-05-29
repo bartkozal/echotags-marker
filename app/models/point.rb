@@ -4,6 +4,8 @@ class Point < ActiveRecord::Base
 
   validates_presence_of :title, :categories, :latitude, :longitude
 
+  default_scope { order(:title) }
+
   def self.duplicates
     Point.group(:title).count.select { |_, count| count > 1 }.keys
   end

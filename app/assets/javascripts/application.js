@@ -2,6 +2,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require chosen-jquery
+//= require jquery-ui/sortable
 //= require_self
 
 var setPosition = function(obj) {
@@ -28,6 +29,17 @@ $(document).on('page:change', function() {
     disable_search: true,
     placeholder_text_multiple: " ",
     width: '100%'
+  });
+
+  $('.js-sortable').sortable({
+    axis: 'y',
+    handle: '.js-sortable-handle',
+    update: function(_, ui) {
+      $.post($(this).data('sortable-url'), {
+        id: ui.item.data('id'),
+        position: ui.item.index()
+      });
+    }
   });
 
   $("#point_latitude").on("paste", function(event) {
