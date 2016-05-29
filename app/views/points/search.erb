@@ -12,7 +12,7 @@
     <%- @search_results.each do |point| %>
       <tr>
         <td><%= link_to point, edit_point_path(point) %></td>
-        <td class="text-muted text-small"><%= point.categories.map(&:title).join %></td>
+        <td class="text-muted text-small"><%= point.inline_categories %></td>
       </tr>
     <% end %>
   </tbody>

@@ -8,6 +8,10 @@ class Point < ActiveRecord::Base
     Point.group(:title).count.select { |_, count| count > 1 }.keys
   end
 
+  def inline_categories
+    categories.join(", ")
+  end
+
   def first_category_title
     categories.first&.title
   end
