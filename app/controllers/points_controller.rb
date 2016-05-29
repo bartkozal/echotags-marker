@@ -35,7 +35,7 @@ class PointsController < ApplicationController
 
   def destroy
     point.destroy
-    redirect_to :back
+    redirect_to reports_path
   end
 
   def search

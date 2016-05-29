@@ -1,6 +1,6 @@
 class Point < ActiveRecord::Base
   has_many :categories, through: :markers
-  has_many :markers
+  has_many :markers, dependent: :destroy
   has_many :triggers
 
   validates_presence_of :title, :categories, :latitude, :longitude
