@@ -20,6 +20,10 @@ input[readonly] {
   }
 }
 
+input[type=search] {
+  border-radius: double($ui-border-radius);
+}
+
 .map {
   width: 100%;
   height: 80vh;

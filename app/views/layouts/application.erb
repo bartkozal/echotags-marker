@@ -11,17 +11,26 @@
 
 <div class="navbar">
   <div class="container">
-    <ul class="navbar-menu">
-      <li class="padding-right  ">
-        <%= link_to_unless_current "Map", root_path, class: "no-padding-sides" %>
-      </li>
-      <li class="padding-right">
-        <%= link_to_unless_current "Data", categories_path, class: "no-padding-sides" %>
-      </li>
-      <li class="padding-right">
-        <%= link_to_unless_current "Reports", reports_path, class: "no-padding-sides" %>
-      </li>
-    </ul>
+    <div class="grid grid-pair">
+      <div class="grid-item 1/2">
+        <ul class="navbar-menu">
+          <li class="padding-right  ">
+            <%= link_to_unless_current "Map", root_path, class: "no-padding-sides" %>
+          </li>
+          <li class="padding-right">
+            <%= link_to_unless_current "Data", categories_path, class: "no-padding-sides" %>
+          </li>
+          <li class="padding-right">
+            <%= link_to_unless_current "Reports", reports_path, class: "no-padding-sides" %>
+          </li>
+        </ul>
+      </div>
+      <div class="grid-item 1/2">
+        <%= form_tag search_points_path, method: :get, class: "form-inline" do |f| %>
+          <%= search_field_tag :term, nil, placeholder: "Search point.." %>
+        <% end %>
+      </div>
+    </div>
   </div>
 </div>
 

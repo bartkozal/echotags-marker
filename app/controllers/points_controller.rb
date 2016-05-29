@@ -38,6 +38,10 @@ class PointsController < ApplicationController
     redirect_to :back
   end
 
+  def search
+    @search_results = Point.where("title LIKE ?", "%#{params[:term]}%")
+  end
+
   private
 
   def point_params
