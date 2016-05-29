@@ -27,7 +27,7 @@ class PointsController < ApplicationController
 
   def update
     if point.update(point_params)
-      redirect_to :back
+      redirect_to points_path
     else
       render :edit
     end
@@ -35,7 +35,7 @@ class PointsController < ApplicationController
 
   def destroy
     point.destroy
-    redirect_to reports_path
+    redirect_to points_path
   end
 
   def search
@@ -57,7 +57,7 @@ class PointsController < ApplicationController
   end
 
   def categories
-    @categories = Category.all
+    @categories = Category.order(:position)
   end
 
   def point
