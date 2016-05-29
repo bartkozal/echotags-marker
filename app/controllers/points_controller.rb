@@ -27,7 +27,7 @@ class PointsController < ApplicationController
 
   def update
     if point.update(point_params)
-      redirect_to edit_point_path(point)
+      redirect_to :back
     else
       render :edit
     end
@@ -35,7 +35,7 @@ class PointsController < ApplicationController
 
   def destroy
     point.destroy
-    redirect_to points_path
+    redirect_to :back
   end
 
   private
