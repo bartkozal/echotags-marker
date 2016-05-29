@@ -1,8 +1,11 @@
 class Point < ActiveRecord::Base
   has_many :categories, through: :markers
   has_many :markers
+  has_many :triggers
 
   validates_presence_of :title, :categories, :latitude, :longitude
+
+  accepts_nested_attributes_for :triggers, reject_if: :all_blank, allow_destroy: true
 
   default_scope { order(:title) }
 
@@ -22,7 +25,9 @@ class Point < ActiveRecord::Base
     title
   end
 
-  def as_json(options)
-    {title: title, latitude: latitude, longitude: longitude}
+  def as_json(*)
+    json = {title: title, latitude: latitude, longitude: longitude}
+    json[:triggers] = triggers if triggers.present?
+    json
   end
 end

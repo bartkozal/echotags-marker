@@ -3,6 +3,7 @@
 //= require turbolinks
 //= require chosen-jquery
 //= require jquery-ui/sortable
+//= require cocoon
 //= require_self
 
 var setPosition = function(obj) {

@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :points, except: [:show, :new] do
+    resources :triggers, only: [:destroy]
     get 'search', on: :collection
   end
   resources :categories do

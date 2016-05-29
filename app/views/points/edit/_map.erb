@@ -12,20 +12,6 @@
         streetViewControl: false
       });
 
-      map.addListener('click', function(event) {
-        if (marker) { marker.setMap(null); }
-
-        marker = new google.maps.Marker({
-          map: map,
-          position: event.latLng,
-          draggable: true,
-          icon: pinSymbol("<%= hexcolor(@point.first_category_title) %>")
-        });
-
-        updatePositionOf(marker);
-        marker.addListener('drag', updatePosition);
-      });
-
       marker = new google.maps.Marker({
         map: map,
         position: position,
@@ -33,5 +19,15 @@
         icon: pinSymbol("<%= hexcolor(@point.first_category_title) %>")
       });
       marker.addListener('drag', updatePosition);
+
+      <%- @point.triggers.each do |trigger| %>
+        var position = new google.maps.LatLng(<%= trigger.latitude %>, <%= trigger.longitude %>);
+
+        var marker = new google.maps.Marker({
+          map: map,
+          position: position,
+          icon: pinSymbol("#ffffff")
+        });
+      <% end %>
     }
 </script>

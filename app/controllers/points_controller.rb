@@ -45,7 +45,15 @@ class PointsController < ApplicationController
   private
 
   def point_params
-    params.require(:point).permit(:title, :latitude, :longitude, :recording_path, :description, category_ids: [])
+    params.require(:point).permit(
+      :title,
+      :latitude,
+      :longitude,
+      :recording_path,
+      :description,
+      category_ids: [],
+      triggers_attributes: [:id, :latitude, :longitude, :_destroy]
+    )
   end
 
   def categories

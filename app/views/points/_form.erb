@@ -34,5 +34,25 @@
   <%= f.label :description %>
   <%= f.text_area :description, rows: 7, class: "1/1" %>
 
+  Triggers:
+
+  <ol>
+  <%- @point.triggers.each do |trigger| %>
+    <li>
+      <div class="grid grid-pair grid-middle">
+        <div class="grid-item 1/2">
+          <%= trigger.latitude %>, <%= trigger.longitude %>
+        </div>
+        <div class="grid-item 1/2">
+          <%= link_to "Remove", point_trigger_path(@point, trigger), method: :delete, class: "text-red" %>
+        </div>
+    </li>
+  <% end %>
+  </ol>
+
+  <div class="margin-bottom">
+    <%= link_to_add_association 'Add Trigger', f, :triggers %>
+  </div>
+
   <%= f.button "Confirm", class: "btn btn-positive" %>
 <% end %>

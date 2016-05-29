@@ -48,6 +48,7 @@ GEM
       coffee-rails (>= 3.2)
       railties (>= 3.0)
       sass-rails (>= 3.2)
+    cocoon (1.2.6)
     coffee-rails (4.1.1)
       coffee-script (>= 2.2.0)
       railties (>= 4.0.0, < 5.1.x)
@@ -156,6 +157,7 @@ DEPENDENCIES
   acts_as_list
   byebug
   chosen-rails
+  cocoon
   coffee-rails (~> 4.1.0)
   jquery-rails
   jquery-ui-rails
