@@ -39,7 +39,7 @@ class PointsController < ApplicationController
   end
 
   def search
-    @search_results = Point.where("title LIKE ?", "%#{params[:term]}%")
+    @search_results = Point.where("title ILIKE ?", "%#{params[:term]}%")
   end
 
   private
