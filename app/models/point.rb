@@ -17,10 +17,6 @@ class Point < ActiveRecord::Base
     categories.join(", ")
   end
 
-  def first_category_title
-    categories.first&.title
-  end
-
   def to_s
     title
   end

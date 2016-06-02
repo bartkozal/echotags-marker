@@ -15,7 +15,7 @@
         map: map,
         position: position,
         draggable: true,
-        icon: pinSymbol("<%= hexcolor(@point.first_category_title) %>")
+        icon: pinSymbol("<%= hexcolor(@point.categories.first) %>")
       });
       marker.addListener('drag', updatePosition);
 

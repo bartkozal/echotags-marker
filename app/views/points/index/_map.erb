@@ -29,7 +29,7 @@
         var marker = new google.maps.Marker({
           map: map,
           position: position,
-          icon: pinSymbol("<%= hexcolor(point.first_category_title) %>")
+          icon: pinSymbol("<%= hexcolor(point.categories.first) %>")
         });
 
         infoWindow = new google.maps.InfoWindow();

@@ -3,6 +3,6 @@ class Marker < ActiveRecord::Base
   belongs_to :category
 
   def as_json(*)
-    {category: category.title, point: point.title}
+    {category: category.name, point: point.title}
   end
 end

@@ -14,7 +14,7 @@
 
   <%= f.label :category_ids, "Categories" %>
   <%= f.select :category_ids,
-        options_from_collection_for_select(@categories, :id, :title, @point.category_ids),
+        options_from_collection_for_select(@categories, :id, :name, @point.category_ids),
         { include_blank: false },
         { multiple: true, class: "js-chosen" }
   %>
