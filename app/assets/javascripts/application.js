@@ -25,6 +25,20 @@ var pinSymbol = function(color) {
    };
 }
 
+var pasteCoordinates = function() {
+  $(".js-paste-coordinates").on("paste", function(event) {
+      var clip = event.originalEvent.clipboardData.getData('text'),
+          separator = ", ";
+
+      if (clip.includes(separator)) {
+        var splits = clip.split(separator);
+        event.preventDefault();
+        event.currentTarget.value = splits[0];
+        $(this).closest('.grid').find('.grid-item:last-of-type input').val(splits[1]);
+      }
+  });
+}
+
 $(document).on('page:change', function() {
   $('.js-chosen').chosen({
     disable_search: true,
@@ -43,15 +57,10 @@ $(document).on('page:change', function() {
     }
   });
 
-  $("#point_latitude").on("paste", function(event) {
-      var clip = event.originalEvent.clipboardData.getData('text'),
-          separator = ", ";
+  pasteCoordinates();
 
-      if (clip.includes(separator)) {
-        var splits = clip.split(separator);
-        event.preventDefault();
-        event.currentTarget.value = splits[0];
-        $("#point_longitude").val(splits[1]);
-      }
+  $("form").on("cocoon:after-insert", function() {
+    pasteCoordinates();
   });
+
 });
