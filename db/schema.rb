@@ -11,13 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160602142151) do
+ActiveRecord::Schema.define(version: 20160602144356) do
 
   create_table "categories", force: :cascade do |t|
     t.string   "name"
-    t.boolean  "visible",    default: true
-    t.datetime "created_at",                null: false
-    t.datetime "updated_at",                null: false
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
     t.integer  "position",   default: 0
   end
 
@@ -42,9 +41,11 @@ ActiveRecord::Schema.define(version: 20160602142151) do
   end
 
   create_table "triggers", force: :cascade do |t|
-    t.float   "latitude"
-    t.float   "longitude"
-    t.integer "point_id"
+    t.float    "latitude"
+    t.float    "longitude"
+    t.integer  "point_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   add_index "triggers", ["point_id"], name: "index_triggers_on_point_id"
