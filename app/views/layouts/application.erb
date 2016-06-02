@@ -35,6 +35,9 @@
 </div>
 
 <div class="container">
+  <%- flash.presence&.each do |type, content| %>
+    <div class="box box-<%= type %>"><%= content %></div>
+  <% end %>
   <%= yield %>
 </div>
 

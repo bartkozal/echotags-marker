@@ -19,7 +19,7 @@ class PointsController < ApplicationController
     @point = Point.new(point_params)
     points
     if @point.save
-      redirect_to categories_path
+      redirect_to edit_point_path(@point), notice: %(Point created)
     else
       render :index
     end
@@ -27,7 +27,7 @@ class PointsController < ApplicationController
 
   def update
     if point.update(point_params)
-      redirect_to categories_path
+      redirect_to edit_point_path(point), notice: %(Point "#{point}" updated)
     else
       render :edit
     end
@@ -35,7 +35,7 @@ class PointsController < ApplicationController
 
   def destroy
     point.destroy
-    redirect_to categories_path
+    redirect_to root_path, alert: %(Point "#{point}" removed)
   end
 
   def search

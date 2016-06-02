@@ -19,7 +19,7 @@ class CategoriesController < ApplicationController
   def create
     @category = Category.new(category_params)
     if @category.save
-      redirect_to categories_path
+      redirect_to categories_path, notice: %(Category "#{@category}" created)
     else
       render :new
     end
@@ -31,7 +31,7 @@ class CategoriesController < ApplicationController
 
   def update
     if category.update(category_params)
-      redirect_to categories_path
+      redirect_to categories_path, notice: %(Category "#{category}" updated)
     else
       render :edit
     end
@@ -39,7 +39,7 @@ class CategoriesController < ApplicationController
 
   def destroy
     category.destroy
-    redirect_to categories_path
+    redirect_to categories_path, alert: %(Category "#{category}" removed)
   end
 
   def sort

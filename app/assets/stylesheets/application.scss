@@ -54,3 +54,18 @@ input[type=search] {
 .js-sortable-handle {
   cursor: move;
 }
+
+.box-notice {
+  margin-bottom: $spacing-unit;
+  border: 1px solid $color-aqua;
+  background-color: rgba($color-aqua, .4);
+  color: $color-blue;
+}
+
+
+.box-alert {
+  margin-bottom: $spacing-unit;
+  border: 1px solid $color-red;
+  background-color: rgba($color-red, .4);
+  color: $color-maroon;
+}
