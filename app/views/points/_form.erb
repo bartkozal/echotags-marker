@@ -34,6 +34,10 @@
   <%= f.label :description %>
   <%= f.text_area :description, rows: 7, class: "1/1" %>
 
+  <%= f.label :audio %>
+  <%= f.text_field :audio, class: "1/1 margin-half-bottom" %>
+  <small class="text-muted block margin-bottom">Suggested: <%= @point.title&.parameterize %></small>
+
   Triggers:
 
   <ol>

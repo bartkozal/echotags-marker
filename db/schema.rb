@@ -11,10 +11,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160529150722) do
+ActiveRecord::Schema.define(version: 20160602142151) do
 
   create_table "categories", force: :cascade do |t|
-    t.string   "title"
+    t.string   "name"
     t.boolean  "visible",    default: true
     t.datetime "created_at",                null: false
     t.datetime "updated_at",                null: false
@@ -35,9 +35,9 @@ ActiveRecord::Schema.define(version: 20160529150722) do
     t.string   "title"
     t.float    "latitude"
     t.float    "longitude"
-    t.string   "recording_path"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.string   "audio"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
     t.text     "description"
   end
 

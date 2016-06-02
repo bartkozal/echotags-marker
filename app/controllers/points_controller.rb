@@ -49,7 +49,7 @@ class PointsController < ApplicationController
       :title,
       :latitude,
       :longitude,
-      :recording_path,
+      :audio,
       :description,
       category_ids: [],
       triggers_attributes: [:id, :latitude, :longitude, :_destroy]
