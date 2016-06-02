@@ -1,17 +1,16 @@
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
 //= require chosen-jquery
 //= require jquery-ui/sortable
 //= require cocoon
 //= require_self
 
 var setPosition = function(obj) {
-  document.getElementById('point_latitude').value = obj.position.lat();
-  document.getElementById('point_longitude').value = obj.position.lng();
+  $('#point_latitude').val(obj.position.lat());
+  $('#point_longitude').val(obj.position.lng());
 }
 
-var updatePosition = function() { setPosition(this); }
+var updatePosition = function() { setPosition(this) }
 var updatePositionOf = function(marker) { setPosition(marker); }
 
 var pinSymbol = function(color) {
@@ -26,7 +25,7 @@ var pinSymbol = function(color) {
 }
 
 var pasteCoordinates = function() {
-  $(".js-paste-coordinates").on("paste", function(event) {
+  $(".js-coordinates").on("paste", function(event) {
       var clip = event.originalEvent.clipboardData.getData('text'),
           separator = ", ";
 
@@ -34,12 +33,12 @@ var pasteCoordinates = function() {
         var splits = clip.split(separator);
         event.preventDefault();
         event.currentTarget.value = splits[0];
-        $(this).closest('.grid').find('.grid-item:last-of-type input').val(splits[1]);
+        $(this).closest('.grid').find('.grid-item:nth-of-type(2) input').val(splits[1]);
       }
   });
 }
 
-$(document).on('page:change', function() {
+$(document).on('ready', function() {
   $('.js-chosen').chosen({
     disable_search: true,
     placeholder_text_multiple: " ",
@@ -59,8 +58,20 @@ $(document).on('page:change', function() {
 
   pasteCoordinates();
 
-  $("form").on("cocoon:after-insert", function() {
+  $("form").on("cocoon:after-insert", function(event, pastedEl) {
     pasteCoordinates();
-  });
 
+    var position = map.getCenter();
+    var marker = new google.maps.Marker({
+      map: map,
+      position: position,
+      draggable: true,
+      label: (labelIndex++).toString()
+    });
+
+    marker.addListener('drag', function(event) {
+      pastedEl.find(".grid-item:nth-of-type(1) input").val(event.latLng.lat());
+      pastedEl.find(".grid-item:nth-of-type(2) input").val(event.latLng.lng());
+    });
+  });
 });

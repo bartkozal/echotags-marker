@@ -10,7 +10,6 @@ gem 'acts_as_list'
 gem 'cocoon'
 
 gem 'jquery-rails'
-gem 'turbolinks'
 gem 'quiet_assets'
 gem 'chosen-rails'
 gem 'jquery-ui-rails'

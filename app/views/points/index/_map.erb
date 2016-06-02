@@ -1,6 +1,6 @@
 <div id="map" class="map"></div>
 <script>
-    var map, infoWindow, newMarker;
+    var map, infoWindow, newMarker, labelIndex = 1;
 
     window.initMap = function() {
       map = new google.maps.Map(document.getElementById('map'), {
