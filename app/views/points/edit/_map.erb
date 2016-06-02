@@ -1,6 +1,6 @@
 <div id="map" class="map"></div>
 <script>
-    var map, marker;
+    var map, marker, labelIndex = 1;
 
     window.initMap = function() {
       var position = new google.maps.LatLng(<%= @point.latitude %>, <%= @point.longitude %>);
@@ -15,7 +15,7 @@
         map: map,
         position: position,
         draggable: true,
-        icon: pinSymbol("<%= hexcolor(@point.categories.first.to_s) %>")
+        icon: pinSymbol("#ffdc00")
       });
       marker.addListener('drag', updatePosition);
 
@@ -25,7 +25,8 @@
         var marker = new google.maps.Marker({
           map: map,
           position: position,
-          icon: pinSymbol("#ffffff")
+          path: google.maps.SymbolPath.CIRCLE,
+          label: (labelIndex++).toString()
         });
       <% end %>
     }
