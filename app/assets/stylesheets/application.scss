@@ -24,6 +24,12 @@ input[type=search] {
   border-radius: double($ui-border-radius);
 }
 
+textarea {
+  @include font-size(12);
+  padding-left: quarter($spacing-unit);
+  padding-right: quarter($spacing-unit);
+}
+
 .map {
   width: 100%;
   height: 80vh;
