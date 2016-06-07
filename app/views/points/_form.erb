@@ -34,8 +34,10 @@
   <%= f.label :description %>
   <%= f.text_area :description, rows: 7, class: "1/1" %>
 
-  <%= f.label :audio %>
-  <%= f.text_field :audio, class: "1/1 margin-half-bottom" %>
+  <%- unless current_page?(root_path) %>
+    <%= f.label :audio %>
+    <%= f.text_field :audio, class: "1/1" %>
+  <% end %>
 
   <div class="margin-quarter-bottom">Triggers</div>
 

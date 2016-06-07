@@ -17,6 +17,7 @@ class PointsController < ApplicationController
 
   def create
     @point = Point.new(point_params)
+    @point.audio = params[:point][:title].parameterize
     points
     if @point.save
       redirect_to edit_point_path(@point), notice: %(Point created)
