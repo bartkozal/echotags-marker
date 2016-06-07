@@ -35,9 +35,9 @@
         infoWindow = new google.maps.InfoWindow();
 
         marker.addListener('click', function() {
-          infoWindow.setContent('<div><strong><%= point.title %></strong></div>' +
+          infoWindow.setContent('<div><strong><%= escape_javascript(point.title) %></strong></div>' +
             '<div class="margin-bottom"><%= point.inline_categories %></div>' +
-            '<div class="margin-bottom"><%= point.description || "Missing description" %></div>' +
+            '<div class="margin-bottom"><%= escape_javascript(point.description) || "Missing description" %></div>' +
             '<div class="text-muted"><%= point.latitude %>, <%= point.longitude %></div>' +
             '<div><%= link_to("Edit point", edit_point_path(point)) %></div>'
           );
