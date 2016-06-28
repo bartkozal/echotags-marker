@@ -2,7 +2,9 @@ class Category < ActiveRecord::Base
   has_many :points, through: :markers
   has_many :markers
 
-  validates_presence_of :name
+  enum color: [:blue, :cyan, :green, :orange, :purple, :red, :yellow]
+
+  validates_presence_of :name, :color
 
   acts_as_list top_of_list: 0
 

@@ -68,10 +68,17 @@ textarea {
   color: $color-blue;
 }
 
-
 .box-alert {
   margin-bottom: $spacing-unit;
   border: 1px solid $color-red;
   background-color: rgba($color-red, .4);
   color: $color-maroon;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  border-radius: 50%;
 }
