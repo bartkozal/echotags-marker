@@ -21,8 +21,12 @@ class Point < ActiveRecord::Base
     title
   end
 
+  def color
+    categories.first.color
+  end
+
   def as_json(*)
-    json = {title: title, latitude: latitude, longitude: longitude, audio: audio}
+    json = {title: title, latitude: latitude, longitude: longitude, audio: audio, color: color}
     json[:triggers] = if triggers.present?
       triggers.map.with_index(1) do |trigger, index|
         {id: "#{audio}-#{index}", latitude: trigger.latitude, longitude: trigger.longitude}

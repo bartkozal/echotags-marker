@@ -15,7 +15,7 @@
         map: map,
         position: position,
         draggable: true,
-        icon: pinSymbol("<%= @point.categories.first.color %>")
+        icon: pinSymbol("<%= @point.color %>")
       });
       marker.addListener('drag', updatePosition);
 
