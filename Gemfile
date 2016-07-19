@@ -9,6 +9,7 @@ gem 'puma'
 gem 'acts_as_list'
 gem 'cocoon'
 gem 'pg'
+gem 'words_counted'
 
 gem 'jquery-rails'
 gem 'quiet_assets'

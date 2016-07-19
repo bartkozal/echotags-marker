@@ -6,8 +6,9 @@
   <div class="grid-item 2/3">
     <%= render "points/index/map" %>
 
-    <div class="text-small text-muted text-right margin-half-top">
-      Total number of points: <%= @points.count %>
-    </div>
+    <ul class="list-divided text-muted text-right margin-half-top">
+      <li>Total number of points: <%= @points.count %></li>
+      <li>Words count: ~<%= @points.words_count %></li>
+    </ul>
   </div>
 </div>
