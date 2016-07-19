@@ -8,6 +8,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'puma'
 gem 'acts_as_list'
 gem 'cocoon'
+gem 'pg'
 
 gem 'jquery-rails'
 gem 'quiet_assets'
@@ -18,7 +19,6 @@ gem 'rails-assets-hocus-pocus', source: 'https://rails-assets.org'
 
 group :development, :test do
   gem 'byebug'
-  gem 'sqlite3'
 end
 
 group :development do
@@ -27,6 +27,5 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
   gem 'rails_12factor'
 end
