@@ -14,7 +14,7 @@
     <div class="grid grid-pair">
       <div class="grid-item 1/2">
         <ul class="navbar-menu">
-          <li class="padding-right  ">
+          <li class="padding-right">
             <%= link_to_unless_current "Map", root_path, class: "no-padding-sides" %>
           </li>
           <li class="padding-right">
@@ -22,6 +22,9 @@
           </li>
           <li class="padding-right">
             <%= link_to_unless_current "Reports", reports_path, class: "no-padding-sides" %>
+          </li>
+          <li class="padding-right">
+            <%= link_to_unless_current "Descriptions", descriptions_path, class: "no-padding-sides" %>
           </li>
         </ul>
       </div>

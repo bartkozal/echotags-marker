@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   end
   resources :markers, only: :index
   resources :reports, only: :index
+  resources :descriptions, only: :index
 
   root 'points#index'
 end
