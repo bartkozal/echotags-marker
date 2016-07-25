@@ -1,3 +1,4 @@
-<%- @descriptions.each_with_index do |description, index| %>
-  <%= index + 1 %>. <%= description %><br>
+<%- @points.each_with_index do |point, index| %>
+  <div class="margin-top"><%= index + 1 %>. <%= link_to point.title, point %></div>
+  <%= point.description %>
 <% end %>

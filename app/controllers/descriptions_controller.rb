@@ -1,5 +1,5 @@
 class DescriptionsController < ApplicationController
   def index
-    @descriptions = Point.all.map(&:description)
+    @points = Point.all
   end
 end
