@@ -1,4 +1,5 @@
 <%- @points.each_with_index do |point, index| %>
-  <div class="margin-top"><%= index + 1 %>. <%= link_to point.title, edit_point_path(point) %></div>
-  <%= point.description %>
+  <div class="margin-top">
+    <%= index + 1 %>. <%= point.description %>
+  </div>
 <% end %>
