@@ -8,10 +8,10 @@
 var setPosition = function(obj) {
   $('#point_latitude').val(obj.position.lat());
   $('#point_longitude').val(obj.position.lng());
-}
+};
 
-var updatePosition = function() { setPosition(this) }
-var updatePositionOf = function(marker) { setPosition(marker); }
+var updatePosition = function() { setPosition(this); };
+var updatePositionOf = function(marker) { setPosition(marker); };
 
 var pinSymbol = function(color) {
     return {
@@ -22,7 +22,7 @@ var pinSymbol = function(color) {
         strokeWeight: 1,
         scale: 1,
    };
-}
+};
 
 var pasteCoordinates = function() {
   $(".js-coordinates").on("paste", function(event) {
@@ -36,7 +36,7 @@ var pasteCoordinates = function() {
         $(this).closest('.grid').find('.grid-item:nth-of-type(2) input').val(splits[1]);
       }
   });
-}
+};
 
 $(document).on('ready', function() {
   $('.js-chosen').chosen({

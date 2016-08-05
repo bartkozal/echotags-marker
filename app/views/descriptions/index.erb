@@ -1,8 +1,15 @@
 <%- @points.each_with_index do |point, index| %>
   <div class="margin-top">
-    <%= index + 1 %>.
-    <%= link_to point.title, edit_point_path(point) %> -
-    <span class="text-muted"><%= point.audio %><span>
+    <%= index + 1 %>. <%= link_to point.title, edit_point_path(point) %>
   </div>
+
   <%= point.description %>
+
+  <div>
+    <%= text_field_tag nil, point.audio, class: "js-select-text-field" %>
+  </div>
 <% end %>
+
+<script>
+  $('.js-select-text-field').click(function() { $(this).select(); });
+</script>
